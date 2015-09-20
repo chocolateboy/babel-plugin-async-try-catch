@@ -5,7 +5,6 @@
 
 A Babel plugin which wraps the body of async functions in a try/catch block
 
-- [babel-plugin-async-try-catch](#babel-plugin-async-try-catch)
 - [INSTALL](#install)
 - [SYNOPSIS](#synopsis)
 - [DESCRIPTION](#description)
