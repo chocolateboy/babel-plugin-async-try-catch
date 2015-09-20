@@ -7,10 +7,10 @@ A Babel plugin which wraps the body of async functions in a try/catch block
 
 - [INSTALL](#install)
 - [SYNOPSIS](#synopsis)
+- [USAGE](#usage)
 - [DESCRIPTION](#description)
   - [Why?](#why)
   - [Custom Error Handling](#custom-error-handling)
-- [USAGE](#usage)
 - [SEE ALSO](#see-also)
 - [VERSION](#version)
 - [AUTHOR](#author)
@@ -19,6 +19,12 @@ A Babel plugin which wraps the body of async functions in a try/catch block
 ## INSTALL
 
     npm install babel-plugin-async-try-catch
+
+## USAGE
+
+```
+$ babel --plugins async-try-catch script.js
+```
 
 ## SYNOPSIS
 
@@ -52,19 +58,13 @@ async function printFile (filename) {
 }
 ```
 
-## USAGE
-
-```
-$ babel --plugins async-try-catch script.js
-```
-
 ## DESCRIPTION
 
 This is a [Babel](https://babeljs.io/) [plugin](https://babeljs.io/docs/advanced/plugins/)
 which wraps the body of async functions in a try/catch block.
 
 If an exception is thrown, it is passed to a callback whose `this` value is set
-to the `this` value inside the catch block. The callback name is currently hardwired as
+to the `this` value inside the catch block. The callback name is currently hardwired to
 `asyncBlock`, but this will be configurable when Babel adds support for
 [plugin options](https://github.com/babel/babel/issues/1833).
 
@@ -92,8 +92,8 @@ so you can take advantage of the sanity and simplicity of async/await without th
 
 ### Custom Error Handling
 
-If you find yourself still manually writing try/catch blocks in order to perform custom error handling, remember
-that the callback can be defined/overridden locally e.g. rather than writing:
+If you find yourself still manually writing try/catch blocks in order to perform custom error handling, it's worth
+remembering that the callback can be defined/overridden locally e.g. rather than writing:
 
 ```javascript
 async function printFile (filename) {
@@ -132,7 +132,7 @@ at which an error occurred can easily be determined from an exception's
 
 ## VERSION
 
-0.0.1
+0.0.2
 
 ## AUTHOR
 
