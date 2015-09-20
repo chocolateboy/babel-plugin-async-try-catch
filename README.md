@@ -6,8 +6,8 @@
 A Babel plugin which wraps the body of async functions in a try/catch block
 
 - [INSTALL](#install)
-- [SYNOPSIS](#synopsis)
 - [USAGE](#usage)
+- [SYNOPSIS](#synopsis)
 - [DESCRIPTION](#description)
   - [Why?](#why)
   - [Custom Error Handling](#custom-error-handling)
@@ -132,7 +132,7 @@ at which an error occurred can easily be determined from an exception's
 
 ## VERSION
 
-0.0.2
+0.0.3
 
 ## AUTHOR
 

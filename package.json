@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-async-try-catch",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Babel plugin which wraps the body of async functions in a try/catch block",
   "repository": "chocolateboy/babel-plugin-async-try-catch",
   "license": "Artistic-2.0",
