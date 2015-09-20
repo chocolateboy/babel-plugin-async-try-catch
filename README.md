@@ -51,6 +51,12 @@ async function printFile (filename) {
 }
 ```
 
+## USAGE
+
+```
+$ babel --plugins async-try-catch script.js
+```
+
 ## DESCRIPTION
 
 This is a [Babel](https://www.npmjs.com/package/babel) [plugin](https://babeljs.io/docs/advanced/plugins/)
