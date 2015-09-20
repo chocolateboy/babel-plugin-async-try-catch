@@ -65,7 +65,7 @@ which wraps the body of async functions in a try/catch block.
 
 If an exception is thrown, it is passed to a callback whose `this` value is set
 to the `this` value inside the catch block. The callback name is currently hardwired to
-`asyncBlock`, but this will be configurable when Babel adds support for
+`asyncError`, but this will be configurable when Babel adds support for
 [plugin options](https://github.com/babel/babel/issues/1833).
 
 If an async function's sole top-level statement is a try/catch, try/finally or try/catch/finally
@@ -132,7 +132,7 @@ at which an error occurred can easily be determined from an exception's
 
 ## VERSION
 
-0.0.4
+0.0.5
 
 ## AUTHOR
 
