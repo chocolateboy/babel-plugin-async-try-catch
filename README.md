@@ -10,6 +10,7 @@ A Babel plugin which wraps the body of async functions in a try/catch block
 - [DESCRIPTION](#description)
   - [Why?](#why)
   - [Custom Error Handling](#custom-error-handling)
+- [USAGE](#usage)
 - [SEE ALSO](#see-also)
 - [VERSION](#version)
 - [AUTHOR](#author)
@@ -49,6 +50,12 @@ async function printFile (filename) {
         asyncError.call(this, error);
     }
 }
+```
+
+## USAGE
+
+```
+$ babel --plugins async-try-catch script.js
 ```
 
 ## DESCRIPTION
