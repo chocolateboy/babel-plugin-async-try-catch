@@ -60,10 +60,10 @@ $ babel --plugins async-try-catch script.js
 
 ## DESCRIPTION
 
-This is a [Babel](https://www.npmjs.com/package/babel) [plugin](https://babeljs.io/docs/advanced/plugins/)
+This is a [Babel](https://babeljs.io/) [plugin](https://babeljs.io/docs/advanced/plugins/)
 which wraps the body of async functions in a try/catch block.
 
-If an exception is thrown it is passed to a callback whose `this` value is set
+If an exception is thrown, it is passed to a callback whose `this` value is set
 to the `this` value inside the catch block. The callback name is currently hardwired as
 `asyncBlock`, but this will be configurable when Babel adds support for
 [plugin options](https://github.com/babel/babel/issues/1833).
@@ -74,8 +74,8 @@ statement, it is not wrapped.
 ### Why?
 
 The ES7 [async/await proposal](https://tc39.github.io/ecmascript-asyncawait/)
-makes asynchronous programming [heavenly](https://jakearchibald.com/2014/es7-async-functions/),
-but async functions have one major gotcha: they silently swallow synchronous exceptions
+makes asynchronous programming in JavaScript [heavenly](https://jakearchibald.com/2014/es7-async-functions/),
+but async functions have one major gotcha: they silently swallow exceptions
 raised within the body of the function. As a result, it is recommended to wrap the body
 of async functions inside a try/catch block:
 
@@ -116,9 +116,9 @@ async function printFile (filename) {
 }
 ```
 
-Note the use of `var` (rather than `let`) to
+Note the use of `var` (rather than `let` or `const`) to
 [hoist](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var#var_hoisting)
-the declaration out of the `try` block so that it remains visible in the `catch` block.
+the declaration out of the try block so that it remains visible in the catch block.
 
 It's also worth remembering that information about the [call site](https://github.com/stacktracejs/stackframe)
 at which an error occurred can easily be determined from an exception's
@@ -127,7 +127,7 @@ at which an error occurred can easily be determined from an exception's
 ## SEE ALSO
 
 * [async/await](https://tc39.github.io/ecmascript-asyncawait/)
-* [babel](https://www.npmjs.com/package/babel)
+* [babel](https://babeljs.io/)
 * [babel-plugins](https://babeljs.io/docs/advanced/plugins/)
 
 ## VERSION
