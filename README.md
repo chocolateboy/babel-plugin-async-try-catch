@@ -118,7 +118,7 @@ async function printFile (filename) {
 
 Note the use of `var` (rather than `let` or `const`) to
 [hoist](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var#var_hoisting)
-the declaration out of the try block so that it remains visible in the catch block.
+the `asyncError` declaration out of the try block so that it remains visible in the catch block.
 
 It's also worth remembering that information about the [call site](https://github.com/stacktracejs/stackframe)
 at which an error occurred can easily be determined from an exception's
