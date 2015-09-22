@@ -1,3 +1,8 @@
+## 0.0.8 - 2015-09-22 09:25:02
+
+* travis: fix/restore v0.10 target
+* rm unused dependency
+
 ## 0.0.7 - 2015-09-20 19:45:57
 
 * travis fix

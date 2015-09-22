@@ -8,7 +8,7 @@ module.exports = function (grunt) {
             options: {
                 sourceMaps: 'inline',
                 nonStandard: false,
-                optional: [ 'strict' ],
+                optional: [ 'runtime', 'strict' ],
                 stage: 0,
             },
             src: {
