@@ -132,7 +132,7 @@ at which an error occurred can easily be determined from an exception's
 
 ## VERSION
 
-0.0.8
+0.0.9
 
 ## AUTHOR
 

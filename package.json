@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-async-try-catch",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A Babel plugin which wraps the body of async functions in a try/catch block",
   "repository": "chocolateboy/babel-plugin-async-try-catch",
   "license": "Artistic-2.0",
@@ -22,6 +22,7 @@
     "espurify": "^1.3.0",
     "grunt": "^0.4.5",
     "grunt-babel": "^5.0.1",
+    "grunt-cli": "^0.1.13",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-mocha-test": "^0.12.7",
     "load-grunt-tasks": "^3.2.0",

@@ -1,3 +1,7 @@
+## 0.0.9 - 2015-09-22 09:38:29
+
+* travis fix: restore grunt-cli as a dev dependency
+
 ## 0.0.8 - 2015-09-22 09:25:02
 
 * travis: fix/restore v0.10 target
