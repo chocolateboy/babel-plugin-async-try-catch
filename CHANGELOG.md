@@ -1,3 +1,7 @@
+**0.0.9** - 2015-09-27 02:45:01
+
+* deprecate since the underlying issue has been [fixed in regenerator](https://github.com/facebook/regenerator/issues/175)
+
 **0.0.8** - 2015-09-22 09:46:35
 
 * travis:

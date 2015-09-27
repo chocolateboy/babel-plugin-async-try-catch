@@ -1,3 +1,5 @@
+**NOTICE:** _This plugin is deprecated and is no longer needed since the bug it works around has been [fixed in regenerator](https://github.com/facebook/regenerator/issues/175)._
+
 # babel-plugin-async-try-catch
 
 [![npm status](http://img.shields.io/npm/v/babel-plugin-async-try-catch.svg)](https://www.npmjs.org/package/babel-plugin-async-try-catch)
@@ -132,7 +134,7 @@ at which an error occurred can easily be determined from an exception's
 
 ## VERSION
 
-0.0.8
+0.0.9
 
 ## AUTHOR
 
