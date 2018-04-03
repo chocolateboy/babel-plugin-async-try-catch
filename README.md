@@ -142,7 +142,7 @@ at which an error occurred can easily be determined from an exception's
 
 ## COPYRIGHT AND LICENSE
 
-Copyright © 2015 by chocolateboy
+Copyright © 2015-2018 by chocolateboy.
 
 This module is free software; you can redistribute it and/or modify it under the
 terms of the [Artistic License 2.0](http://www.opensource.org/licenses/artistic-license-2.0.php).
